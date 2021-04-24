@@ -3,14 +3,14 @@ import { QuestionContainer, QuestionContent, QuestionTitle } from './QuestionEle
 
 //import { Button, ButtonWrapper } from '../Button';
 
-const Question = () => {
+const Question = ( {id, title} ) => {
     return (
-        <QuestionContainer id="question">
+        <QuestionContainer id={id}>
             
             <QuestionContent>
 
-                <QuestionTitle>Question 1</QuestionTitle>
-                
+                <QuestionTitle>{title}</QuestionTitle>
+
             </QuestionContent>
 
         </QuestionContainer>

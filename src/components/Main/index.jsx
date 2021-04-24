@@ -11,7 +11,7 @@ const Main = () => {
                 <MainTagline>How sus(tainable) are you?</MainTagline>
 
                 <ButtonWrapper>
-                    <Button to="question" smooth={true} duration={500} spy={true} exact='true'>
+                    <Button to="question1" smooth={true} duration={500} spy={true} exact='true'>
                         Take Quiz!
                     </Button>
                 </ButtonWrapper>
