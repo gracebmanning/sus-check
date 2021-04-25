@@ -11,6 +11,7 @@ const Main = () => {
                 <TitleContainer className='rows'>
                 <MainHeader className='row'>sus <MainHeaderStrike className='row'>vibe</MainHeaderStrike> check</MainHeader>
                 </TitleContainer>
+                
                 <MainTagline>How sus(tainable) are you?</MainTagline>
 
                 <ButtonWrapper>

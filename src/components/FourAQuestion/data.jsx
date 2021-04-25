@@ -1,6 +1,7 @@
 
 export const Question2 = {
     id: "question2",
+    lightbg: false,
     number: "2",
     title: "What is your most frequently-used mode of transportation?",
     answer1: "Public Transportation",
@@ -13,6 +14,7 @@ export const Question2 = {
 
 export const Question3 = {
     id: "question3",
+    lightbg: true,
     number: "3",
     title: "Do you donate clothes when you no longer want them?",
     answer1: "Always",
@@ -24,6 +26,7 @@ export const Question3 = {
 
 export const Question4 = {
     id: "question4",
+    lightbg: false,
     number: "4",
     title: "When you want new clothes, where do you usually get them?",
     answer1: "Department stores",

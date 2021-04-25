@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const QuestionContainer = styled.div`
-    background: #8EE4AF;
+    background: ${({ lightbg }) => (lightbg ? '#8EE4AF' : '#379683')};
     display: flex;
     height: 100vh;
     justify-content: center;

@@ -3,9 +3,9 @@ import { QuestionContainer, QuestionContent, QuestionNumber, QuestionTitle, Ques
 
 //import { Button, ButtonWrapper } from '../Button';
 
-const TwoAQuestion = ( {id, number, title, image, alt, answer1, answer2} ) => {
+const TwoAQuestion = ( {id, lightbg, number, title, image, alt, answer1, answer2, answerVals} ) => {
     return (
-        <QuestionContainer id={id}>
+        <QuestionContainer id={id} lightbg={lightbg}>
             
             <QuestionContent>
 
@@ -14,8 +14,8 @@ const TwoAQuestion = ( {id, number, title, image, alt, answer1, answer2} ) => {
                 <QuestionImage src={image} alt={alt} />
 
                 <AnswerWrapper>
-                    <AnswerButton>{answer1}</AnswerButton>
-                    <AnswerButton>{answer2}</AnswerButton>
+                    <AnswerButton onClick={() => click(answerVals[0])}>{answer1}</AnswerButton>
+                    <AnswerButton onClick={() => click(answerVals[1])}>{answer2}</AnswerButton>
                 </AnswerWrapper>
 
             </QuestionContent>
@@ -23,5 +23,9 @@ const TwoAQuestion = ( {id, number, title, image, alt, answer1, answer2} ) => {
         </QuestionContainer>
     );
 };
+
+function click(num){
+    console.log(num);
+}
 
 export default TwoAQuestion

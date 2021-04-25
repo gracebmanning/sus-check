@@ -3,9 +3,9 @@ import { QuestionContainer, QuestionContent, QuestionNumber, QuestionTitle, Ques
 
 //import { Button, ButtonWrapper } from '../Button';
 
-const FourAQuestion = ( {id, number, title, image, alt, answer1, answer2, answer3, answer4, answerVals} ) => {
+const FourAQuestion = ( {id, lightbg, number, title, image, alt, answer1, answer2, answer3, answer4, answerVals} ) => {
     return (
-        <QuestionContainer id={id}>
+        <QuestionContainer id={id} lightbg={lightbg}>
             
             <QuestionContent>
 
