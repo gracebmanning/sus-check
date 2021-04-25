@@ -18,6 +18,21 @@ function Home() {
     useEffect(function(){
         console.log(counter)
     }, [counter])
+    
+    function calculate(){
+        if (counter <= 5){
+            return Grade1;
+        }
+        if (counter <= 10){
+            return Grade2;
+        }
+        if (counter <= 20){
+            return Grade3;
+        }
+        else{
+            return Grade4;
+        }
+    }
 
     return (
         <>
@@ -29,7 +44,7 @@ function Home() {
         <TwoAQuestion  {...Question5} setCounter={setCounter} />
         <TwoAQuestion  {...Question6} setCounter={setCounter} />
         <FourAQuestion {...Question7} setCounter={setCounter} />
-        <Result {...Grade1}/>
+        <Result {...Grade1} counter={counter} grade={calculate()}/>
         <Footer />
         </>
     );
