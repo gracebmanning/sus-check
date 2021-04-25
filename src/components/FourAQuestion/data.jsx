@@ -16,11 +16,11 @@ export const Question3 = {
     id: "question3",
     lightbg: true,
     number: "3",
-    title: "Do you donate clothes when you no longer want them?",
+    title: "How often do you donate clothes when you no longer want them?",
     answer1: "Always",
     answer2: "Most of the time",
     answer3: "A handful of times",
-    answer4: "No",
+    answer4: "Never",
     answerVals: [3, 2, 1, 0]
 }
 
