@@ -39,7 +39,7 @@ export const ResultIntro = styled.h1`
     }
 `
 export const ResultGrade = styled.h1`
-    color: #8EE4AF;
+    color: #2E824E;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -58,7 +58,7 @@ export const ResultGrade = styled.h1`
 `
 
 export const ResultDesc = styled.p`
-    color: #8EE4AF;
+    color: #2E824E;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: normal;
