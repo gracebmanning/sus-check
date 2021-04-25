@@ -18,8 +18,6 @@ const TwoAQuestion = ( {id, number, title, image, alt, answer1, answer2} ) => {
                     <AnswerButton>{answer2}</AnswerButton>
                 </AnswerWrapper>
 
-
-
             </QuestionContent>
 
         </QuestionContainer>
