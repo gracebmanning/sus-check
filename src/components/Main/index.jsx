@@ -1,5 +1,6 @@
 import React from 'react';
-import { MainContainer, MainContent, MainHeader, MainTagline } from './MainElements';
+import logo from '../../images/suscheck_logo.png';
+import { MainContainer, MainLogo, MainContent, MainHeader, MainTagline } from './MainElements';
 import { Button, ButtonWrapper } from '../Button';
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
         <MainContainer id="home">
             
             <MainContent>
+                <MainLogo src={logo}/>
                 <MainHeader>Sus Check</MainHeader>
                 <MainTagline>How sus(tainable) are you?</MainTagline>
 

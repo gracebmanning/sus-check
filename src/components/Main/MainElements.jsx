@@ -10,6 +10,11 @@ export const MainContainer = styled.div`
     z-index: 1;
 `
 
+export const MainLogo = styled.img`
+    width: 25%;
+    height: 25%;
+`
+
 export const MainContent = styled.div`
     z-index: 3;
     max-width: 1200px;
@@ -22,7 +27,7 @@ export const MainContent = styled.div`
 
 export const MainHeader = styled.h1`
     color: #05386B;
-    font-size: 48px;
+    font-size: 85px;
     text-align: center;
     text-decoration: line-through;
     font-family: 'Archivo Black', sans-serif;
@@ -38,7 +43,7 @@ export const MainTagline = styled.h3`
     margin-top: 24px;
     line-height: 10px;
     color: #05386B;
-    font-size: 24px;
+    font-size: 35px;
     font-family: 'Archivo', sans-serif;
     text-align: center;
     max-width: 600px;
