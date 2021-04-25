@@ -30,20 +30,20 @@ const Footer = () => {
 
                 <SocialMediaWrap>
                     Kaitlyn Suzuki
-                    <SocialIconLink href="https://www.github.com/gracebmanning" target="_blank" aria-label="GitHub">
+                    <SocialIconLink href="https://github.com/kaitlynsuzuki" target="_blank" aria-label="GitHub">
                         <FaGithub />
                     </SocialIconLink>
-                    <SocialIconLink href="https://www.linkedin.com/in/grace-manning/" target="_blank" aria-label="LinkedIn">
+                    <SocialIconLink href="https://www.linkedin.com/in/kaitlyn-suzuki/" target="_blank" aria-label="LinkedIn">
                         <FaLinkedin />
                     </SocialIconLink>
                 </SocialMediaWrap>
 
                 <SocialMediaWrap>
                     Vivian Lin
-                    <SocialIconLink href="https://www.github.com/gracebmanning" target="_blank" aria-label="GitHub">
+                    <SocialIconLink href="https://github.com/vplin26" target="_blank" aria-label="GitHub">
                         <FaGithub />
                     </SocialIconLink>
-                    <SocialIconLink href="https://www.linkedin.com/in/grace-manning/" target="_blank" aria-label="LinkedIn">
+                    <SocialIconLink href="https://www.linkedin.com/in/vivianplin/" target="_blank" aria-label="LinkedIn">
                         <FaLinkedin />
                     </SocialIconLink>
                 </SocialMediaWrap>
