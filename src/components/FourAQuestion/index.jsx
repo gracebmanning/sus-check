@@ -9,7 +9,7 @@ const FourAQuestion = ( {id, number, title, image, alt, answer1, answer2, answer
             
             <QuestionContent>
 
-                <QuestionNumber>{number}</QuestionNumber>
+                <QuestionNumber>Question {number}</QuestionNumber>
                 <QuestionTitle>{title}</QuestionTitle>
                 <QuestionImage src={image} alt={alt} />
 

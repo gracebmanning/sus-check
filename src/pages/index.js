@@ -3,7 +3,7 @@ import Main from '../components/Main';
 import TwoAQuestion from '../components/TwoAQuestion';
 import FourAQuestion from '../components/FourAQuestion';
 import { Question1 } from '../components/TwoAQuestion/data';
-import { Question2 } from '../components/FourAQuestion/data';
+import { Question2, Question3, Question4 } from '../components/FourAQuestion/data';
 import Result from '../components/Results';
 import { Grade1, Grade2, Grade3, Grade4 } from '../components/Results/data';
 import Footer from '../components/Footer';
@@ -18,6 +18,8 @@ const Home = () => {
         <Main />
         <TwoAQuestion {...Question1}/>
         <FourAQuestion {...Question2}/>
+        <FourAQuestion {...Question3} />
+        <FourAQuestion {...Question4} />
         <Result {...Grade1}/>
         <Footer />
         </>
