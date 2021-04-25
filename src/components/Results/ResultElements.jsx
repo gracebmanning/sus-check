@@ -21,15 +21,13 @@ export const ResultContent = styled.div`
 `
 
 export const ResultIntro = styled.h1`
-    color: #8EE4AF;
+    color: #379683;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 96px;
+    font-size: 50px;
 
     position: absolute;
-    width: 426px;
-    height: 104px;
     left: 200px;
     top: 100px;
 
@@ -39,5 +37,82 @@ export const ResultIntro = styled.h1`
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
+`
+export const ResultGrade = styled.h1`
+    color: #8EE4AF;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
 
+    position: relative;
+    left: 250px;
+    top: 210px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+`
+
+export const ResultDesc = styled.p`
+    color: #8EE4AF;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+    position: relative;
+    left: 250px;
+    top: 200px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+`
+
+export const ResourcesIntro = styled.h1`
+    color: #2D9CDB;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+
+    position: absolute;
+    width: 426px;
+    height: 104px;
+    left: 200px;
+    top: 400px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+`
+
+export const ResourcesInfo = styled.a`
+    color: #05386B;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+    position: relative;
+    left: 250px;
+    top: 380px;
+    margin-bottom: 10px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
 `
