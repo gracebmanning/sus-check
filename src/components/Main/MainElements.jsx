@@ -24,6 +24,7 @@ export const MainHeader = styled.h1`
     color: #05386B;
     font-size: 48px;
     text-align: center;
+    text-decoration: line-through;
     font-family: 'Archivo Black', sans-serif;
     @media screen and (max-width: 768px) {
         font-size: 40px;
