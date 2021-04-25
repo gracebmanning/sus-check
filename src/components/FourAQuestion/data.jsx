@@ -6,7 +6,8 @@ export const Question2 = {
     answer1: "Public Transportation",
     answer2: "Walking/Bicycling",
     answer3: "Fuel-Reliant Vehicle",
-    answer4: "Alternatively Powered Vehicle"
+    answer4: "Alternatively Powered Vehicle",
+    answerVals: [2, 3, 0, 1]
 }
 
 
@@ -17,5 +18,6 @@ export const Questionx = {
     answer1: "",
     answer2: "",
     answer3: "",
-    answer4: ""
+    answer4: "",
+    answerVals: []
 }

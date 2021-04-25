@@ -11,7 +11,7 @@ import { Grade1, Grade2, Grade3, Grade4 } from '../components/Results/data';
 
 //needa fix grades to be conditional
 const Home = () => {
-
+    var counter = 0;
     return (
         <>
         <Main />
