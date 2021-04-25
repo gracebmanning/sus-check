@@ -22,13 +22,13 @@ function Home() {
     return (
         <>
         <Main />
-        <TwoAQuestion  {...Question1} setCounter={setCounter} anything={"hello"}/>
-        <FourAQuestion {...Question2} />
-        <FourAQuestion {...Question3} />
-        <FourAQuestion {...Question4} />
+        <TwoAQuestion  {...Question1} setCounter={setCounter} />
+        <FourAQuestion {...Question2} setCounter={setCounter} />
+        <FourAQuestion {...Question3} setCounter={setCounter} />
+        <FourAQuestion {...Question4} setCounter={setCounter} />
         <TwoAQuestion  {...Question5} setCounter={setCounter} />
         <TwoAQuestion  {...Question6} setCounter={setCounter} />
-        <FourAQuestion {...Question7} />
+        <FourAQuestion {...Question7} setCounter={setCounter} />
         <Result {...Grade1}/>
         <Footer />
         </>
