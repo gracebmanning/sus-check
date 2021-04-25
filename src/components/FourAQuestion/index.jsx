@@ -21,8 +21,6 @@ class FourAQuestion extends React.Component {
                     <AnswerButton onClick={() => click(this.props.answerVals[3])}>{this.props.answer4}</AnswerButton>
                 </AnswerWrapper>
 
-
-
             </QuestionContent>
 
         </QuestionContainer>

@@ -1,4 +1,4 @@
-import React from 'react';
+import {useState, useEffect} from 'react';
 import Main from '../components/Main';
 import TwoAQuestion from '../components/TwoAQuestion';
 import FourAQuestion from '../components/FourAQuestion';
@@ -11,24 +11,28 @@ import Footer from '../components/Footer';
 // put in <Quiz /> component to use buzzfeed quiz
 
 //needa fix grades to be conditional
-class Home extends React.Component {
-    render() {
-        var counter = 0;
-        return (
-            <>
-            <Main />
-            <TwoAQuestion  {...Question1} />
-            <FourAQuestion {...Question2} />
-            <FourAQuestion {...Question3} />
-            <FourAQuestion {...Question4} />
-            <TwoAQuestion  {...Question5} />
-            <TwoAQuestion  {...Question6} />
-            <FourAQuestion {...Question7} />
-            <Result {...Grade1}/>
-            <Footer />
-            </>
-        );
-    }
+function Home() {
+    
+    const [counter, setCounter] = useState(0)
+    
+    useEffect(function(){
+        console.log(counter)
+    }, [counter])
+
+    return (
+        <>
+        <Main />
+        <TwoAQuestion  {...Question1} setCounter={setCounter} anything={"hello"}/>
+        <FourAQuestion {...Question2} />
+        <FourAQuestion {...Question3} />
+        <FourAQuestion {...Question4} />
+        <TwoAQuestion  {...Question5} setCounter={setCounter} />
+        <TwoAQuestion  {...Question6} setCounter={setCounter} />
+        <FourAQuestion {...Question7} />
+        <Result {...Grade1}/>
+        <Footer />
+        </>
+    );
 };
 
 

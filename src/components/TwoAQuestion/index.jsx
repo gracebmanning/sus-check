@@ -3,31 +3,27 @@ import { QuestionContainer, QuestionContent, QuestionNumber, QuestionTitle, Ques
 
 //import { Button, ButtonWrapper } from '../Button';
 
-class TwoAQuestion extends React.Component {
-    render() {
-        return (
-            <QuestionContainer id={this.props.id} lightbg={this.props.lightbg}>
-                
-                <QuestionContent>
+function TwoAQuestion(props) {
+    
+    return (
+        <QuestionContainer id={props.id} lightbg={props.lightbg}>
+            
+            <QuestionContent>
 
-                    <QuestionNumber>Question {this.props.number}</QuestionNumber>
-                    <QuestionTitle>{this.props.title}</QuestionTitle>
-                    <QuestionImage src={this.props.image} alt={this.props.alt} />
+                <QuestionNumber>Question {props.number}</QuestionNumber>
+                <QuestionTitle>{props.title}</QuestionTitle>
+                <QuestionImage src={props.image} alt={props.alt} />
 
-                    <AnswerWrapper>
-                        <AnswerButton onClick={() => click(this.props.answerVals[0])}>{this.props.answer1}</AnswerButton>
-                        <AnswerButton onClick={() => click(this.props.answerVals[1])}>{this.props.answer2}</AnswerButton>
-                    </AnswerWrapper>
+                <AnswerWrapper>
+                    <AnswerButton onClick={ () => {props.setCounter(counter => counter + props.answerVals[0])} }>{props.answer1}</AnswerButton>
+                    <AnswerButton onClick={ () => {props.setCounter(counter => counter + props.answerVals[1])} }>{props.answer2}</AnswerButton>
+                </AnswerWrapper>
 
-                </QuestionContent>
+            </QuestionContent>
 
-            </QuestionContainer>
-        );
-    };
+        </QuestionContainer>
+    );
 };
 
-function click(num){
-    console.log(num);
-}
 
 export default TwoAQuestion

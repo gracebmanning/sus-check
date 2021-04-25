@@ -8,8 +8,9 @@ export const Question1 = {
     alt: "dog",
     answer1: "Of course",
     answer2: "Uhh no...",
-    answerVals: [0, 0]
+    answerVals: [1, 2]
 }
+// change answerVals later
 
 export const Question5 = {
     id: "question5",
