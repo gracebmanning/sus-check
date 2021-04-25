@@ -21,6 +21,10 @@ export const LinksContainer = styled.div`
 export const FooterLogo = styled.img`
     width: 7%;
     height: 7%;
+
+    &:hover {
+        cursor: pointer;
+    }
 `
 
 export const FooterTitle = styled(Link)`

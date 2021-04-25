@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <FooterContainer>
 
-            <FooterLogo src={logo}/>
+            <FooterLogo src={logo} to="/" onClick={toggleHome}/>
             <FooterTitle to="/" onClick={toggleHome}>sus check</FooterTitle>
 
             <LinksContainer>
