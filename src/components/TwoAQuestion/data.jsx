@@ -38,3 +38,16 @@ export const Question6 = {
     answer2: "No :(",
     answerVals: [3, 0]
 }
+
+export const Question9 = {
+    id: "question9",
+    to: "question10",
+    lightbg: true,
+    number: "9",
+    title: "Do you recycle?",
+    image: require('../../images/recyclememe.jpg').default,
+    alt: "forgot bags",
+    answer1: "Yeah yeah",
+    answer2: "No, I hate the planet lol",
+    answerVals: [3, 0]
+}

@@ -47,7 +47,7 @@ export const Question4 = {
 
 export const Question7 = {
     id: "question7",
-    to: "",
+    to: "question8",
     lightbg: true,
     number: "7",
     title: "How many times a week do you eat beef?",
@@ -59,3 +59,34 @@ export const Question7 = {
     answer4: "Never",
     answerVals: [0, 1, 2, 3]
 }
+
+export const Question8 = {
+    id: "question8",
+    to: "question9",
+    lightbg: false,
+    number: "8",
+    title: "When is Earth Day?",
+    image: require('../../images/earthday.jpg').default,
+    alt: "horse on the beach",
+    answer1: "June 35th",
+    answer2: "April 22nd",
+    answer3: "December 437th",
+    answer4: "Febapril 45th",
+    answerVals: [0, 3, 0, 0]
+}
+
+export const Question10 = {
+    id: "question10",
+    to: "end",
+    lightbg: false,
+    number: "10",
+    title: "What's your sustainability vibe?",
+    image: require('../../images/vibecheck.png').default,
+    alt: "horse on the beach",
+    answer1: "Incredible",
+    answer2: "Alright",
+    answer3: "Low",
+    answer4: "Nonexistent",
+    answerVals: [3, 2, 1, 0]
+}
+

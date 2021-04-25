@@ -2,8 +2,8 @@ import {useState, useEffect} from 'react';
 import Main from '../components/Main';
 import TwoAQuestion from '../components/TwoAQuestion';
 import FourAQuestion from '../components/FourAQuestion';
-import { Question1, Question5, Question6 } from '../components/TwoAQuestion/data';
-import { Question2, Question3, Question4, Question7 } from '../components/FourAQuestion/data';
+import { Question1, Question5, Question6, Question9 } from '../components/TwoAQuestion/data';
+import { Question2, Question3, Question4, Question7, Question8, Question10 } from '../components/FourAQuestion/data';
 import Result from '../components/Results';
 import { Grade1, Grade2, Grade3, Grade4 } from '../components/Results/data';
 import Footer from '../components/Footer';
@@ -44,6 +44,9 @@ function Home() {
         <TwoAQuestion  {...Question5} setCounter={setCounter} />
         <TwoAQuestion  {...Question6} setCounter={setCounter} />
         <FourAQuestion {...Question7} setCounter={setCounter} />
+        <FourAQuestion {...Question8} setCounter={setCounter} />
+        <TwoAQuestion  {...Question9} setCounter={setCounter} />
+        <FourAQuestion {...Question10} setCounter={setCounter}/>
         <Result {...Grade1} counter={counter} grade={calculate()}/>
         <Footer />
         </>
