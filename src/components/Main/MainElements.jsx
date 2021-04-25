@@ -11,8 +11,8 @@ export const MainContainer = styled.div`
 `
 
 export const MainLogo = styled.img`
-    width: 25%;
-    height: 25%;
+    width: 60%;
+    height: 60%;
 `
 
 export const MainContent = styled.div`
@@ -25,7 +25,29 @@ export const MainContent = styled.div`
     align-items: center;
 `
 
+export const TitleContainer = styled.div`
+    z-index: 3;
+    max-width: 1200px;
+    position: absolute;
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    `
+
 export const MainHeader = styled.h1`
+    color: #05386B;
+    font-size: 85px;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+`
+export const MainHeaderStrike = styled.h1`
     color: #05386B;
     font-size: 85px;
     text-align: center;

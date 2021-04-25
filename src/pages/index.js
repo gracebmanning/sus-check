@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 
 //needa fix grades to be conditional
 const Home = () => {
-
+    var counter = 0;
     return (
         <>
         <Main />
