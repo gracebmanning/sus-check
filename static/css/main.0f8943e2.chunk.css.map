@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACE,qBAAsB,CACtB,QAAS,CACT,SAAU,CACV,gCACF,CACA,WACE,oBACF","file":"main.0f8943e2.chunk.css","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: \"Archivo\", sans-serif;\r\n}\r\n.rows .row {\r\n  display: inline-block;\r\n}\r\n"]}
