@@ -14,7 +14,7 @@ export const Grade2 = {
 export const Grade3 = {
     id: "grade3",
     title: "what a sussy baka ☜╮(´ิ∀´ิ☜╮)",
-    describe: "damn, you're almost a pro at living sustainably. proud of u uwu."
+    describe: "wow, you're almost a pro at living sustainably. proud of u uwu."
 }
 
 export const Grade4 = {

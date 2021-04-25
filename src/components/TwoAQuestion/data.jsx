@@ -9,7 +9,7 @@ export const Question1 = {
     alt: "stinky",
     answer1: "Of course",
     answer2: "Uhh no...",
-    answerVals: [1, 2]
+    answerVals: [1, 1]
 }
 // change answerVals later
 
