@@ -32,6 +32,8 @@ export const Question6 = {
     lightbg: false,
     number: "6",
     title: "Do you bring reusable bags to the grocery store?",
+    image: require('../../images/failure.png').default,
+    alt: "forgot bags",
     answer1: "Yes...I'm cool",
     answer2: "No :(",
     answerVals: [3, 0]
