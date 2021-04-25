@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 export const Button = styled(Link)`
     background: #379683;
     white-space: nowrap;
+    font-size: 25px;
     padding: 12px 30px;
     color: #EDF5E1;
     margin: 0px 10px;
