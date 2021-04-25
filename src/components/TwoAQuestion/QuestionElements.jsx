@@ -23,8 +23,9 @@ export const QuestionContent = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    width: 50vw;
+    text-align: center;
+    height: 70vh;
+    width: 60vw;
 `
 
 export const QuestionNumber = styled.p`
@@ -53,8 +54,8 @@ export const QuestionTitle = styled.h1`
 `
 
 export const QuestionImage = styled.img`
-    height: 170px;
-    width: 170px;
+    height: 45%;
+    width: 40%;
 `
 
 
@@ -76,6 +77,11 @@ export const AnswerButton = styled(Link)`
     justify-content: center;
     align-items: center;
     margin: 10px;
+
+    @media screen and (max-width: 768px){
+        width: 150px;
+        font-size: 16px;
+    }
 
     &:hover {
         transform: scale(1.03);

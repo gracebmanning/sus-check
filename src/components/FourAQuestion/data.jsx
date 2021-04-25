@@ -5,6 +5,8 @@ export const Question2 = {
     lightbg: false,
     number: "2",
     title: "What is your most frequently-used mode of transportation?",
+    image: require('../../images/drivingdog.jpg').default,
+    alt: "driving dog",
     answer1: "Public Transportation",
     answer2: "Walking/Bicycling",
     answer3: "Fuel-Reliant Vehicle",
