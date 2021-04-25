@@ -45,5 +45,5 @@ export const Question7 = {
     answer2: "4-6 times a week",
     answer3: "1-3 times a week",
     answer4: "Never",
-    answerVals = [0, 1, 2, 3]
+    answerVals: [0, 1, 2, 3]
 }
