@@ -16,5 +16,5 @@ export const Grade3 = {
 
 export const Grade4 = {
     id: "grade4",
-    title: "super sus, but in a good way"
+    title: "super sus, u r a bad imposter"
 }
