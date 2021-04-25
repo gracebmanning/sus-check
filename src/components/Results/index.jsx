@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grade1, Grade2, Grade3, Grade4 } from './data';
-import { ResultsContainer, ResultContent, ResultIntro, ResultGrade, ResultDesc, ResourcesIntro, ResourcesInfo } from './ResultElements';
+import { ResultsContainer, ResultContent, ResultIntro, ResultGrade, ResultDesc, ResourcesIntro, ResourcesInfo, ImageContainer, ImageStorage } from './ResultElements';
 //import { Button, ButtonWrapper } from '../Button';
 
 const Results = ({counter, grade}) => {
@@ -22,8 +22,9 @@ const Results = ({counter, grade}) => {
                 <ResourcesInfo href="https://www.epa.gov/recycle" target="_blank" >Reduce, Reuse, Recycle</ResourcesInfo>
 
             </ResultContent>
-
+            <ImageStorage src={require('../../images/sustainable.png').default} />
         </ResultsContainer>
+
     );
 };
 

@@ -47,7 +47,7 @@ export const ResultGrade = styled.h1`
 
     position: relative;
     left: 250px;
-    top: 210px;
+    top: 180px;
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
@@ -115,4 +115,11 @@ export const ResourcesInfo = styled.a`
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
+`
+
+export const ImageStorage = styled.img`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50vh;
 `
