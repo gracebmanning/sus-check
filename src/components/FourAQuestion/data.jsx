@@ -35,3 +35,15 @@ export const Question4 = {
     answer4: "Sustainable brands",
     answerVals: [1, 3, 0, 2]
 }
+
+export const Question7 = {
+    id: "question7",
+    lightbg: true,
+    number: "7",
+    title: "How many times a week do you eat beef?",
+    answer1: "Every day",
+    answer2: "4-6 times a week",
+    answer3: "1-3 times a week",
+    answer4: "Never",
+    answerVals = [0, 1, 2, 3]
+}
