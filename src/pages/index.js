@@ -11,22 +11,24 @@ import Footer from '../components/Footer';
 // put in <Quiz /> component to use buzzfeed quiz
 
 //needa fix grades to be conditional
-const Home = () => {
-    var counter = 0;
-    return (
-        <>
-        <Main />
-        <TwoAQuestion  {...Question1} />
-        <FourAQuestion {...Question2} />
-        <FourAQuestion {...Question3} />
-        <FourAQuestion {...Question4} />
-        <TwoAQuestion  {...Question5} />
-        <TwoAQuestion  {...Question6} />
-        <Result {...Grade1}/>
-        <Footer />
-        </>
-    );
-
+class Home extends React.Component {
+    render() {
+        var counter = 0;
+        return (
+            <>
+            <Main />
+            <TwoAQuestion  {...Question1} />
+            <FourAQuestion {...Question2} />
+            <FourAQuestion {...Question3} />
+            <FourAQuestion {...Question4} />
+            <TwoAQuestion  {...Question5} />
+            <TwoAQuestion  {...Question6} />
+            <Result {...Grade1}/>
+            <Footer />
+            </>
+        );
+    }
 };
+
 
 export default Home

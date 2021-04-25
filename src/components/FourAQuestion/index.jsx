@@ -3,21 +3,22 @@ import { QuestionContainer, QuestionContent, QuestionNumber, QuestionTitle, Ques
 
 //import { Button, ButtonWrapper } from '../Button';
 
-const FourAQuestion = ( {id, lightbg, number, title, image, alt, answer1, answer2, answer3, answer4, answerVals} ) => {
-    return (
-        <QuestionContainer id={id} lightbg={lightbg}>
+class FourAQuestion extends React.Component {
+    render() {
+        return (
+            <QuestionContainer id={this.props.id} lightbg={this.props.lightbg}>
             
             <QuestionContent>
 
-                <QuestionNumber>Question {number}</QuestionNumber>
-                <QuestionTitle>{title}</QuestionTitle>
-                <QuestionImage src={image} alt={alt} />
+                <QuestionNumber>Question {this.props.number}</QuestionNumber>
+                <QuestionTitle>{this.props.title}</QuestionTitle>
+                <QuestionImage src={this.props.image} alt={this.props.alt} />
 
                 <AnswerWrapper>
-                    <AnswerButton onClick={() => click(answerVals[0])}>{answer1}</AnswerButton>
-                    <AnswerButton onClick={() => click(answerVals[1])}>{answer2}</AnswerButton>
-                    <AnswerButton onClick={() => click(answerVals[2])}>{answer3}</AnswerButton>
-                    <AnswerButton onClick={() => click(answerVals[3])}>{answer4}</AnswerButton>
+                    <AnswerButton onClick={() => click(this.props.answerVals[0])}>{this.props.answer1}</AnswerButton>
+                    <AnswerButton onClick={() => click(this.props.answerVals[1])}>{this.props.answer2}</AnswerButton>
+                    <AnswerButton onClick={() => click(this.props.answerVals[2])}>{this.props.answer3}</AnswerButton>
+                    <AnswerButton onClick={() => click(this.props.answerVals[3])}>{this.props.answer4}</AnswerButton>
                 </AnswerWrapper>
 
 
@@ -25,8 +26,10 @@ const FourAQuestion = ( {id, lightbg, number, title, image, alt, answer1, answer
             </QuestionContent>
 
         </QuestionContainer>
-    );
-};
+        )
+    }
+}
+
 //function prints the the console the number passed through
 function click(num){
     console.log(num);
