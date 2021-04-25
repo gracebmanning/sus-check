@@ -1,6 +1,7 @@
 
 export const Question1 = {
     id: "question1",
+    to: "question2",
     lightbg: true,
     number: "1",
     title: "Do you shower?",
@@ -14,6 +15,7 @@ export const Question1 = {
 
 export const Question5 = {
     id: "question5",
+    to: "question6",
     lightbg: true,
     number: "5",
     title: "Are you familiar with alternatives to plastic?",
@@ -24,6 +26,7 @@ export const Question5 = {
 
 export const Question6 = {
     id: "question6",
+    to: "question7",
     lightbg: false,
     number: "6",
     title: "Do you bring reusable bags to the grocery store?",

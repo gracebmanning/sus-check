@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 export const QuestionContainer = styled.div`
     background: ${({ lightbg }) => (lightbg ? '#8EE4AF' : '#379683')};
@@ -65,7 +66,7 @@ export const AnswerWrapper = styled.div`
     align-items: center;
 `
 
-export const AnswerButton = styled.div`
+export const AnswerButton = styled(Link)`
     background: #379683;
     color: #EDF5E1;
     width: 300px;
