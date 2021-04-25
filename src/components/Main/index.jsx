@@ -1,15 +1,16 @@
 import React from 'react';
 import logo from '../../images/suscheck_logo.png';
-import { MainContainer, MainLogo, MainContent, MainHeader, MainTagline } from './MainElements';
+import { MainContainer, MainLogo, MainContent, TitleContainer, MainHeader, MainHeaderStrike, MainTagline } from './MainElements';
 import { Button, ButtonWrapper } from '../Button';
 
 const Main = () => {
     return (
         <MainContainer id="home">
-            
             <MainContent>
-                <MainLogo src={logo}/>
-                <MainHeader>Sus Check</MainHeader>
+            <MainLogo src={logo}/>
+                <TitleContainer className='rows'>
+                <MainHeader className='row'>sus <MainHeaderStrike className='row'>vibe</MainHeaderStrike> check</MainHeader>
+                </TitleContainer>
                 <MainTagline>How sus(tainable) are you?</MainTagline>
 
                 <ButtonWrapper>

@@ -32,4 +32,12 @@ export const ResultIntro = styled.h1`
     height: 104px;
     left: 200px;
     top: 100px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+
 `
