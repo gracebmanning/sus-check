@@ -2,6 +2,7 @@
 
 ## How sus(tainable) are you?
 
+<<<<<<< HEAD
 Sus Check is a web application in react made by Grace Manning, Vivian Lin, and Kaitlyn Suzuki for VenusHacks 2021!
 
 ## Functionality
@@ -27,3 +28,6 @@ During the creation of **Sus Check**, we learned a lot about how to pass values 
 ## Possible Future Features Sus Check
 
 In the future, we hope to add more questions to assess the user's sustainability score and provide more resources! Not only that, but we would love to add more visual elements such as a gradient background or different button styles to improve the user experience.
+=======
+VenusHacks 2021 project by Grace Manning, Vivian Lin, Kaitlyn Suzuki, & someone else.
+>>>>>>> parent of 288052d... updated readme
